@@ -48,7 +48,7 @@ that matter, will still have CONTRIBUTING.md, LICENSE.md, and README.md files.)
 
 Open up `index.js` in your text editor. If you're using the Learn IDE, click the
 blue "Open" button in the top right hand corner of the lesson. If you open up
-that `js-basics-variables-lab/` directory, you'll see a list of files (along
+that `fewpjs-js-fundamentals-variables-lab/` directory, you'll see a list of files (along
 with a `test/` directory). Click `index.js`, and it will open in the editor.
 
 In `index.js`, you should see, well, nothing. We'll fix that soon.
@@ -70,8 +70,8 @@ describe('index.js', function () {
 `describe` is a function provided by our test library, Mocha, and it's used to
 hold our tests. After the word `describe` is information about our tests. Tests
 are used as a way to document the behavior of a function to developers. For
-example, the next word `describe` is followed by the word `companyName` name.
-Here the test is telling us that the tests that come afterwords will be about
+example, the next word `describe` is followed by the word `companyName`.
+Here the test is telling us that the tests that come afterwards will be about
 `companyName`. Then comes the word `it`, where you see the following:
 
 ```js
